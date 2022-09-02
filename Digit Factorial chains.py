@@ -7,11 +7,11 @@ def factorial(n):
 
 
 def number_show(number):
-    sam = 0
+    sum = 0
     while number != 0:
-        sam = factorial(number % 10) + sam
+        sum = factorial(number % 10) + sum
         number = number // 10
-    return sam
+    return sum
 
 
 def checking(number):
